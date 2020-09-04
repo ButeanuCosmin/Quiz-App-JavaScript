@@ -1,0 +1,47 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Congratulations!</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="container">
+    <div id="end" class="flex-center flex-column" align="center">
+        <h1>Your Score</h1>
+        <h1 id="finalScore"></h1>
+        <form>
+            <input align="center" style="margin: 10px;padding-left: 40px; padding-right: 40px; padding-top: 15px; padding-bottom: 15px;text-align: center"
+                    type="text"
+                    name="username"
+                    id="username"
+                    placeholder="username"
+            />
+            <button style=" margin: 10px; padding-left: 40px; padding-right: 40px; padding-top: 15px; padding-bottom: 15px"
+                    type="submit"
+                    class="btn"
+                    id="saveScoreBtn"
+                    onclick="saveHighScore(event)"
+                    disabled
+            >
+                Save
+            </button>
+        </form>
+        <div style="margin: 45px">
+            <a class="btn" href="index.html" style=" padding-left: 40px; padding-right: 40px; padding-top: 15px; padding-bottom: 15px">Play Again</a>
+        </div>
+        <div style="margin: 55px">
+            <a class="btn" href="highscores.html" style=" padding-left: 40px; padding-right: 40px; padding-top: 15px; padding-bottom: 15px">Highscores</a>
+        </div>
+
+
+
+    </div>
+</div>
+<script src="final.js"></script>
+</body>
+</html>
